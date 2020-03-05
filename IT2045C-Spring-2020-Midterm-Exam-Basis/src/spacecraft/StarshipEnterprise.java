@@ -11,11 +11,17 @@ package spacecraft;
  *
  */
 public class StarshipEnterprise extends Spacecraft {
+	/**
+	 * constructor for the starship enterprise
+	 * @param name the name of the enterprise
+	 */
 	public StarshipEnterprise(String name) {
 		super(name);
 	}
 	
-	@Override
+	/**
+	 * launches the starship enterprise
+	 */
 	public void Launch() {
 		System.out.println("I am the Starship Enterprise and I am launching.");
 	}

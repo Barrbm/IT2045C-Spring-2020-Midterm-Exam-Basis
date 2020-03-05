@@ -10,12 +10,17 @@ package spacecraft;
  *
  */
 public class KlingonWarbird extends Spacecraft {
-	
+	/**
+	 * constructor for the Klingon Warbird
+	 * @param name the name of the Warbird
+	 */
 	public KlingonWarbird(String name) {
 		super(name);
 	}
 	
-	@Override
+	/**
+	 * makes the Warbird launch
+	 */
 	public void Launch() {
 		System.out.println("I am a Klingon Warrbird and I am launching.");
 	}
